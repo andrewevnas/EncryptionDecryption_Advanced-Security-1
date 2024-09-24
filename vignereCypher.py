@@ -1,3 +1,14 @@
+# Program to encrypt a message encoded using Vigenere Cypher. 
+# 
+# This program takes user input of a message that the user would like to encrypt using vignere cypher. 
+# Program then takes user input and encrypts the message using the key 'leg' as specified in the requirements of the
+# assignment. Code is editale to hard code a word for encryption but i thought it more flexible to allow the user to 
+# choose a word of their choice. Keeping to the requirements this word is 'explanation'. It 
+# then outputs the encrypted word as well as the 'extended key' used for encryption.
+
+
+
+
 def vigenere_encrypt(plaintext, key):
     key = key.lower()
     key_length = len(key)

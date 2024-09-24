@@ -1,4 +1,6 @@
-# Program to decrypt a message encoded using Ceaser Cypher. This program takes user input of a Ceaser 
+# Program to decrypt a message encoded using Ceaser Cypher. 
+# 
+# This program takes user input of a Ceaser 
 # encrypted message and tests multiple shifts to decrypt the passage. Once all shifts in the designated range
 # have been tested, program looks in each decryption for commonly used english words and uses this information
 # to output the (most likely) shift value as well as the passage that it thinks is the correct decryption
